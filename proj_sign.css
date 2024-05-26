@@ -1,0 +1,51 @@
+.thxxsa {
+    padding: 24pt 0 40pt 0%;
+    background-image: url(https://i.imgur.com/KB99Pvj.gif);
+    background-size: 100% auto;
+    position: relative;
+    background-position: 50% 55%;
+}
+
+.thxxsb {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.thxxsc {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 10pt;
+    letter-spacing: .5pt;
+    font-family: Arial;
+    margin: 10px 0 0 8px;
+    text-shadow: 1px 1px 5px #0000002b;
+    padding: 2%;
+}
+
+.thxxsd {
+    display: block;
+    color: white !important;
+}
+
+.thxxse {
+    background-color: #254ef8;
+    padding: 1px 5px 2px 5px;
+    border-radius: 3px;
+}
+
+.thxxsf {
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: .77pt;
+    color: white !important;
+    opacity: .88;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+a.thxxsf img {
+    transform: scale(.88) translateY(2px);
+}
