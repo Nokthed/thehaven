@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.prd_rech {
+    position: relative;
+    font-size: 10pt;
+    font-family: 'Inter', sans-serif;
+    background-color: #121212;
+    color: #e8e8e8;
+    padding: 2%;
+}
+
+.prd_rech > span {
+    display: block;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.prd_rech_attentionhein {
+    position: relative;
+    background-color: #254ef8;
+    padding: 2%;
+    color: white;
+    border-radius: 2px;
+    font-size: 11pt;
+    text-align: center;
+}
+
+a.prd_rech_proj {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+a.prd_rech_proj::before {
+    content: "LIEN PROJET";
+    font-size: 9pt;
+    vertical-align: middle;
+    background-color: white;
+    color: #254ef8;
+    display: inline-block;
+    padding: 0 4px;
+    border-radius: 4px;
+    margin-right: 4px;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+}
+
+.prd_rech_head {
+    color: #7d7d7d;
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 12pt;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.prd_rech_label {
+    color: #254ef8;
+    font-weight: 500;
+    font-size: 12pt;
+    letter-spacing: 1pt;
+}
+
+.prd_rech_label::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    background-color: #254ef8;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.prd_rech_label + br {
+    display: none;
+}
+
+.prd_rech_label::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    margin-right: 6px;
+    width: 30%;
+    margin-left: 6px;
+    background-image: linear-gradient(90deg, #254ef8, transparent);
+}
+
+.prd_rech_field::before {
+    content: ">";
+    margin-right: 4px;
+    float: left;
+    transform: translateY(-1Px);
+    font-size: 7pt;
+    font-weight: 800;
+}
+
+.prd_rech_thx {
+    text-align: center;
+    font-size: 9pt;
+    letter-spacing: .5pt;
+}
+
+.prd_rech_thx span {
+    font-size: 13pt;
+    margin-top: 4px;
+    display: block;
+    font-weight: 500;
+    color: white;
+}
+
+.prd_rechup {
+    font-family: 'Inter', sans-serif;
+    margin: 5%;
+    border: 1px solid #12121224;
+    padding: 30px 1% 1% 1%;
+    position: relative;
+}
+
+.prd_rechup::before {
+    content: "Toujours d'actualité""";
+    position: absolute;
+    left: 1%;
+    top: calc(-10% + 8px);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10pt;
+    color: #12121248;
+    letter-spacing: 5Pt;
+    background-color: #e0e1ee;
+    padding: 0 0% 0 1%;
+}
+
+.prd_rechup_title {
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+.prd_rechup_content {
+    font-size: 10pt;
+}
+
+.prd_rechup_content strong {
+    color: #254ef8;
+}
+
+.prd_rechup_end {
+    font-size: 11pt;
+    text-align: center;
+}
