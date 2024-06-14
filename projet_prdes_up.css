@@ -354,3 +354,19 @@ span.upsys_topo_encours strong {
 span.upsys_topo_planned strong {
     color: #6477d9 !important;
 }
+
+span.upsys_topo_postponed strong {
+    color: #b65025 !important;
+}
+
+.projet_prdes_up_header_rain::before {
+    content: "";
+    background-image: url(https://i.imgur.com/awqDsFG.gif);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .4;
+    background-size: 33% auto;
+}
