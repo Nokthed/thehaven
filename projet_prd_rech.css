@@ -179,6 +179,7 @@ a.prd_rech_proj::before {
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .prd_rechup_second::before {
