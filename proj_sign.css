@@ -23,7 +23,7 @@
     padding: 2%;
 }
 
-.thxxsd {
+a.thxxsd {
     display: block;
     color: white !important;
 }
@@ -34,7 +34,7 @@
     border-radius: 3px;
 }
 
-.thxxsf {
+a.thxxsf {
     position: absolute;
     right: 1%;
     bottom: 1%;
