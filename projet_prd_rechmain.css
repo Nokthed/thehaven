@@ -2,11 +2,11 @@
 
 .prd_rech {
     position: relative;
-    font-size: 10pt;
+    font-size: 11pt;
     font-family: 'Inter', sans-serif;
     background-color: #121212;
     color: #e8e8e8;
-    padding: 2%;
+    padding: 2% 4%;
     background-image: url(https://i.imgur.com/VblhfAt.png);
     background-size: auto 100%;
 }
@@ -108,7 +108,7 @@ a.prd_rech_proj::before {
     content: ">";
     margin-right: 4px;
     float: left;
-    transform: translateY(-1Px);
+    transform: translateY(3px);
     font-size: 7pt;
     font-weight: 800;
 }
@@ -165,4 +165,12 @@ a.prd_rech_proj::before {
 .prd_rechup_end {
     font-size: 11pt;
     text-align: center;
+}
+
+contxt {
+    display: block;
+    padding: 2.5%;
+    margin: 1.25%;
+    background-color: #1919196e;
+    font-size: 12pt;
 }
