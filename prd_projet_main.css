@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.prj_prd {
+    position: relative;
+    background-color: #0a0a0a;
+    font-family: 'Inter', sans-serif;
+}
+
+.prj_prd_header strong {
+    font-size: 62pt;
+    height: 70px;
+    line-height: 70px;
+    color: #fafafa;
+    z-index: 2;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.prj_prd_header {
+    box-sizing: border-box;
+    padding: 90px 0 0 0;
+    text-align: center;
+    position: relative;
+    background-image: url(https://the-haven.fr/cache/themes/theme3/header_bg.png);
+    z-index: 0;
+    background-size: 100% auto;
+    background-position: 0 0;
+    height: 250px;
+}
+
+.prj_prd_header span {
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 9pt;
+}
+
+.prj_prd_header span:first-of-type {
+    font-size: 10pt;
+    font-weight: 600;
+    padding-top: 7px;
+    letter-spacing: 2.5pt;
+    text-transform: uppercase;
+}
+
+.prj_prd_header span:last-of-type {
+    background-color: #254ef8;
+    width: fit-content;
+    padding: 1.25% 2%;
+    text-align: center;
+    font-weight: 500;
+    margin: 40px auto 0 auto;
+    border-radius: 3px;
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+
+.prj_prd_header::before {
+    /* content: ""; */
+    position: absolute;
+    left: 0;
+    top: 24px;
+    width: 17%;
+    background-color: #254ef8;
+    height: 3px;
+}
+
+.prj_prd_header::after {
+    /* content: ""; */
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: 48%;
+    background-color: #254ef8;
+    height: 3px;
+}
+
+.prj_prd_header strong::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    background-image: linear-gradient(0deg, #0a0a0a, transparent);
+}
+
+.prj_prd_content {
+    padding: 1% 2%;
+    color: #cacaca;
+    font-size: 10pt;
+}
+
+.prj_prd_content strong {
+    color: #8ca2ff;
+    font-weight: 500;
+}
+
+.prj_prd_ctitle {background-image: linear-gradient(90deg, #254EF8 0%, #657ee6 56%, #254EF8 100%);color: transparent;-webkit-background-clip: text;background-clip: text;font-size: 32pt;font-weight: 700;text-align: center;display: block;padding: 10pt 0;margin-top: 10pt;}
+
+.prj_prd_ctitle::before {
+    /* content: ""; */
+    position: absolute;
+    left: -159px;
+    top: 50%;
+    height: 2px;
+    width: 150px;
+    background-image: linear-gradient(-90deg, #254ef8, transparent);
+    transform: translateY(-50%);
+}
+
+.prj_prd_ctitle::after {
+    /* content: ""; */
+    position: absolute;
+    right: -152px;
+    top: 50%;
+    height: 2px;
+    width: 150px;
+    background-image: linear-gradient(90deg, #254ef8, transparent);
+    transform: translateY(-50%);
+}
+
+.prj_prd_contexte {
+    background-color: #373737;
+    box-sizing: border-box;
+    padding: 2%;
+    font-size: 10.5pt;
+    line-height: 13pt;
+    font-weight: 300;
+}
+
+span.prj_prd_subtitle {
+    color: #254ef8;
+    font-weight: 600;
+    font-size: 13pt;
+}
+
+.prj_prd_footer {
+    box-sizing: border-box;
+    padding: 24pt 0;
+    text-align: center;
+    position: relative;
+    background-image: url(https://the-haven.fr/cache/themes/theme3/header_bg.png);
+    z-index: 0;
+    background-size: 100% auto;
+    background-position: 80% 80%;
+}
+
+.prj_prd_footer strong::before {
+    content: "";
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-image: linear-gradient(180deg, #0a0a0a, transparent);
+    top: 0;
+}
+
+.prj_prd_footer strong {
+    color: white;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.prj_prd_prevenir {
+    position: relative;
+    padding: 4%;
+    border: 1px solid #30303030;
+}
+
+.prj_prd_prevenir div {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #010101;
+    letter-spacing: 1pt;
+}
+
+span.prj_prd_prevenir_desc {
+    padding: 0 4%;
+    display: block;
+}
+
+span.prj_prd_prevenir_desc i {
+    color: #254ef8;
+    font-weight: 600;
+}
+
+.prj_prd_warning div img {
+    width: 64px;
+    height: 64px;
+}
+
+.prj_prd_warning div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.prj_prd_warning strong {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.prj_prd_warning span {
+    display: block;
+    border-left: 4px solid red;
+    background-color: rgba(255,0,0,.25);
+    color: black;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.prj_prd_header > *:nth-child(3) {
+    background-color: #040404bd;
+    display: block;
+    width: fit-content;
+    padding: 8px 12px 6px 12px;
+    border-radius: 4px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .25pt;
+    font-size: 8pt;
+}
