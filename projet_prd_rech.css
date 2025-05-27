@@ -189,10 +189,10 @@ a.prd_rech_proj::before {
     top: 0;
     height: 200px;
     right: 0;
-    background-image: url(https://i.imgur.com/rhoHiO1.gif), linear-gradient(45deg, #040404, transparent);
+    background-image: url(https://i.imgur.com/UD94zUm.gif), linear-gradient(45deg, #040404, transparent);
     mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
     background-size: 100% auto;
-    background-position: 50% 8%;
+    background-position: 50% 56%;
 }
 
 .prd_rechup_second_title {
