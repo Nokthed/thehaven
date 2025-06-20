@@ -138,6 +138,10 @@
     display: none !important;
 }
 
+.projet_prdes_up_syst blockquote {
+    background-color: rgba(30,30,30,.75);
+}
+
 img.projet_prdes_up_sys_img {
     width: 100%;
     max-width: 75vw !important;
