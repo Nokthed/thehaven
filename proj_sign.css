@@ -81,8 +81,8 @@ a.thxxsf img {
     content: "THE HAVEN";
     position: absolute;
     left: calc(50% + 12.5pt);
-    top: 0;
-    transform: translateX(-50%);
+    top: 35%;
+    transform: translate(-50%,-50%);
     color: #ffffff;
     font-size: 24px;
     display: block;
