@@ -7,20 +7,32 @@
 }
 
 .thxxsb {
-    display: inline-block;
+    position: relative;
+    display: flex;
     vertical-align: middle;
-    margin-top: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: default;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.25%;
 }
 
 .thxxsc {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 10pt;
+    display: flex;
+    font-size: 12px;
     letter-spacing: .5pt;
     font-family: Arial;
-    margin: 10px 0 0 8px;
     text-shadow: 1px 1px 5px #0000002b;
-    padding: 2%;
+    position: absolute;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    left: 0;
+    right: 10px;
+    bottom: 10px;
+    text-transform: uppercase;
 }
 
 a.thxxsd {
@@ -30,8 +42,10 @@ a.thxxsd {
 
 .thxxse {
     background-color: #254ef8;
-    padding: 1px 5px 2px 5px;
+    padding: 6px 12px;
     border-radius: 3px;
+    transition: all .33s ease-in-out;
+    display: inline-flex;
 }
 
 a.thxxsf {
@@ -48,4 +62,60 @@ a.thxxsf {
 
 a.thxxsf img {
     transform: scale(.88) translateY(2px);
+}
+
+.thxxsa.thxbef::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(135deg, #ffffff, #254EF833);
+    pointer-events: none;
+    opacity: .45;
+    mix-blend-mode: soft-light;
+}
+
+.thxxsb::before {
+    content: "THE HAVEN";
+    position: absolute;
+    left: calc(50% + 12.5pt);
+    top: 0;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 24px;
+    display: block;
+    width: max-content;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 25pt;
+    text-shadow: 0 0 6px #000000;
+}
+
+.thxxsb strong {
+    mix-blend-mode: overlay;
+    font-size: 48px;
+    letter-spacing: 25pt;
+    margin-right: -25pt;
+    opacity: .75;
+}
+
+.thxxsb span {
+    margin-top: 2.5%;
+    text-transform: uppercase;
+    letter-spacing: 6.25pt;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    opacity: .7;
+}
+
+span.thxxse:hover {
+    transform: scale(1.15);
+    width: fit-content;
+    padding-left: 12.5px;
+    margin-left: -6.25px;
+    padding-right: 12.5px;
+    margin-right: -6.25px;
 }
