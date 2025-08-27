@@ -400,10 +400,16 @@ a.discord_goto_proj img:last-of-type {
     filter: invert(1);
 }
 
+.projet_prdes_up_block + div[style="text-align: center;"] {
+    margin: .75%;
+    width: auto !important ;
+}
+
 .projet_prdes_up_block + div[style="text-align: center;"] dl.codebox {
     padding: 0;
     border: none;
     margin: 0;
     margin-top: -5px;
 }
+
 
