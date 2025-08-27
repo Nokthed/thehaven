@@ -176,8 +176,9 @@ span.prj_prd_subtitle {
     font-size: 16pt;
     font-weight: 500;
     font-family: sans-serif;
-    color: #010101;
+    color: #dcdcdc;
     letter-spacing: 1pt;
+    background-color: #121214;
 }
 
 span.prj_prd_prevenir_desc {
@@ -222,6 +223,7 @@ span.prj_prd_prevenir_desc i {
     border-left: 4px solid red;
     background-color: rgba(255,0,0,.25);
     color: #d8d8d8;
+    text-shadow: 1px 1px 0px #30303050;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
