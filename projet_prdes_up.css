@@ -374,3 +374,35 @@ span.upsys_topo_postponed strong {
     opacity: .4;
     background-size: 33% auto;
 }
+
+
+a.discord_goto_proj {
+    background-color: #5865F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 3.33% 0;
+    color: white !important;
+    font-weight: 500;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: .33pt;
+    background-image: linear-gradient(0deg, #04040433, transparent, #04040417);
+}
+
+a.discord_goto_proj img {
+    width: 32px;
+    height: auto;
+}
+
+a.discord_goto_proj img:last-of-type {
+    filter: invert(1);
+}
+
+.prj_prd + div[style="text-align: center;"] dl.codebox {
+    padding: 0;
+    border: none;
+    margin: 0;
+    margin-top: -5px;
+}
