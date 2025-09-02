@@ -269,3 +269,9 @@ a.discord_goto_proj img {
 a.discord_goto_proj img:last-of-type {
     filter: invert(1);
 }
+
+.prj_prd + div dl.codebox.hidecode {
+    padding: 0;
+    border: none;
+    margin-top: -6px;
+}
