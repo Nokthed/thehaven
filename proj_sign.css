@@ -1,13 +1,14 @@
 .thxxsa {
-    padding: 24pt 0 40pt 0%;
+    padding: 6pt 0 40pt 0%;
     background-image: url(https://i.imgur.com/KB99Pvj.gif);
     background-size: 100% auto;
     position: relative;
     background-position: 50% 55%;
+    overflow: hidden;
+    border-radius: 3px;
 }
 
 .thxxsb {
-    position: relative;
     display: flex;
     vertical-align: middle;
     color: white;
@@ -26,12 +27,12 @@
     font-family: Arial;
     text-shadow: 1px 1px 5px #0000002b;
     position: absolute;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
     justify-content: flex-end;
     left: 0;
-    right: 10px;
-    bottom: 10px;
+    right: 24px;
+    bottom: 18px;
     text-transform: uppercase;
 }
 
@@ -42,10 +43,13 @@ a.thxxsd {
 
 .thxxse {
     background-color: #254ef8;
-    padding: 6px 12px;
-    border-radius: 3px;
+    padding: 4px 10px;
+    border-radius: 2px;
     transition: all .33s ease-in-out;
     display: inline-flex;
+    background-image: linear-gradient(145deg, #ffffff38, transparent);
+    letter-spacing: .33pt;
+    font-size: 11.55px;
 }
 
 a.thxxsf {
@@ -78,7 +82,7 @@ a.thxxsf img {
 }
 
 .thxxsb::before {
-    content: "THE HAVEN";
+    /* content: "THE HAVEN"; */
     position: absolute;
     left: calc(50% + 12.5pt);
     top: 35%;
@@ -95,27 +99,25 @@ a.thxxsf img {
 
 .thxxsb strong {
     mix-blend-mode: overlay;
-    font-size: 48px;
+    font-size: 82px;
     letter-spacing: 25pt;
     margin-right: -25pt;
-    opacity: .75;
+    opacity: 1;
 }
 
 .thxxsb span {
-    margin-top: 2.5%;
+    margin-top: 3.33%;
     text-transform: uppercase;
-    letter-spacing: 6.25pt;
+    letter-spacing: 12.5pt;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
-    opacity: .7;
+    opacity: .95;
 }
 
 span.thxxse:hover {
-    transform: scale(1.15);
+    transform: scale(1.22);
     width: fit-content;
     padding-left: 12.5px;
-    margin-left: -6.25px;
     padding-right: 12.5px;
-    margin-right: -6.25px;
 }
