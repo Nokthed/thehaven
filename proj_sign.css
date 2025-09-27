@@ -103,6 +103,8 @@ a.thxxsf img {
     letter-spacing: 25pt;
     margin-right: -25pt;
     opacity: 1;
+    filter: drop-shadow(2px 4px 10px #04040425);
+    color: white;
 }
 
 .thxxsb span {
@@ -132,4 +134,18 @@ span.thxxse:hover {
     right: 0;
     mix-blend-mode: screen;
     filter: opacity(.49);
+}
+
+.thxxsb::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    /* border: 3.33px solid white; */
+    opacity: .76;
+    mix-blend-mode: soft-light;
+    filter: blur(10px);
+    box-shadow: 0 0 0 30px black;
 }
