@@ -135,6 +135,7 @@ span.thxxse:hover {
     right: 0;
     mix-blend-mode: screen;
     filter: opacity(.49);
+    pointer-events: none;
 }
 
 .thxxsb::after {
@@ -148,6 +149,7 @@ span.thxxse:hover {
     opacity: .76;
     mix-blend-mode: soft-light;
     filter: blur(10px);
+    pointer-events: none;
     box-shadow: 0 0 0 30px black;
 }
 .thxxsb span::before {
@@ -168,3 +170,4 @@ span.thxxse:hover {
     right: 0;
     display: flex;
 }
+
