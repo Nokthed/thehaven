@@ -79,7 +79,7 @@
 
 .forum_prdes_up_header {
     box-sizing: border-box;
-    height: 500px;
+    height: 380px;
     background-size: cover;
     position: relative;
     display: flex;
@@ -96,4 +96,94 @@
     height: 75%;
     background-image: linear-gradient(0deg, #060709 10%, transparent);
     z-index: 2;
+}
+
+.forum_prdes_up_logo::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 240px;
+    height: 240px;
+    opacity: .9;
+    z-index: 0;
+    background-image: linear-gradient(115deg,rgba(37, 78, 248, 0.33),transparent);
+    backdrop-filter: blur(12px);
+    transform: rotate(45deg);
+}
+
+.forum_prdes_up_logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.forum_prdes_up_logo span {
+    position: relative;
+    z-index: 3;
+    font-size: 16pt;
+    font-weight: 300;
+    color: #d9d9d9;
+    display: block;
+    font-family: var(--font-basique);
+    letter-spacing: 0.22rem;
+}
+
+.forum_prdes_up_logo div:not([class]) {
+    font-size: 128px;
+    color: transparent;
+    font-weight: 600;
+    letter-spacing: 2pt;
+    margin-top: -10px;
+    height: 128px;
+    z-index: 3;
+    position: relative;
+    background-image: linear-gradient(0deg, #858585, #ececec);
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 128px;
+}
+
+.forum_prdes_up_sublogo {
+    font-size: 8.5pt;
+    color: #747474;
+    letter-spacing: 4pt;
+    font-weight: 300;
+    text-shadow: 0 0 8px BLACK;
+    position: relative;
+    z-index: 3;
+}
+
+.forum_prdes_up_content {
+    padding: 0 24px;
+    position: relative;
+    z-index: 1;
+}
+
+.forum_prdes_up_title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: #cfcfcf;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.forum_prdes_up_title strong {
+    border-radius: 0.25rem;
+    font-weight: 600;
+    white-space: nowrap;
+    user-select: none;
+    background: #14204a;
+    font-size: 1.95rem;
+    line-height: 1.95rem;
+    padding: 4px;
+    font-family: system-ui;
+    color: #d1d5db;
+    letter-spacing: 0;
 }
