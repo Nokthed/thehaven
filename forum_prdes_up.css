@@ -7,15 +7,44 @@
   border-radius: 4px;
 }
 
+.forum_prdes_up_wrapper::before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 3px;
+  right: 14px;
+  height: 12px;
+  background-color: #00000033;
+  z-index: 3;
+  backdrop-filter: blur(20px);
+}
+
 .forum_prdes_up_main {
   position: relative;
-  margin: 2%;
+  margin: .1%;
   display: block;
-  margin: auto;
   align-self: center;
   background-color: #060709;
   border-radius: 4px;
   z-index: 1;
+}
+
+.forum_prdes_up_main::before, 
+.forum_prdes_up_main::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 12px;
+  background-color: #00000033;
+  z-index: 3;
+  backdrop-filter: blur(20px);
+}
+
+.forum_prdes_up_main::after {
+  left: unset;
+  right: 0;
 }
 
 .forum_prdes_up_border {
