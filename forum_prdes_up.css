@@ -58,7 +58,7 @@
   content: "";
   display: block;
   position: absolute;
-  width: 200%;
+  width: 300%;
   right: -50%;
   bottom: -50%;
   top: -50%;
@@ -160,6 +160,10 @@
     padding: 0 24px;
     position: relative;
     z-index: 1;
+    color: #cfcfcf;
+    font-size: 14px;
+    font-family: system-ui;
+    letter-spacing: -.15px;
 }
 
 .forum_prdes_up_title {
@@ -186,4 +190,97 @@
     font-family: system-ui;
     color: #d1d5db;
     letter-spacing: 0;
+}
+
+.forum_prdes_up_content i {
+    color: #254EF8;
+}
+
+.forum_prdes_up_content blockquote {
+    background-color: #222f55;
+    border-color: #00000033;
+    font-size: 1.33rem;
+    line-height: 2rem;
+}
+
+.forum_prdesup_info_imp {
+    display: flex;
+    font-size: 76px;
+    margin: 3% auto;
+    color: transparent;
+    line-height: 76px;
+    font-weight: 200;
+    background-image: linear-gradient(45deg, #afbfff, #8eb2ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    height: 190px;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.forum_prdesup_info_imp strong:last-of-type {
+    font-size: 106px;
+    margin-top: -33px;
+}
+
+.forum_prdesup_info_imp br {
+    display: none;
+}
+
+.forum_prdesup_teas_end {
+    background-image: linear-gradient(180deg, #060709 15%, #060709FA 29%, #060709CF 90%, #060709EF 100%), url(https://i.imgur.com/iUO6Qua.png);
+    margin-left: -24px;
+    width: calc(100% + 48px);
+    height: 250px;
+    box-sizing: border-box;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 30px;
+    background-size: 100% auto;
+    background-position: 100% 100%;
+}
+
+.forum_prdesup_teas_end ~ br {
+    display: none;
+}
+
+a.discord_goto_proj {
+    background-color: #5865F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 3.33% 0;
+    color: white !important;
+    font-weight: 500;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: .33pt;
+    background-image: linear-gradient(0deg, #04040433, transparent, #04040417);
+}
+
+a.discord_goto_proj img {
+    width: 32px;
+    height: auto;
+}
+
+a.discord_goto_proj img:last-of-type {
+    filter: invert(1);
+}
+
+.projet_prdes_up_block + div[style="text-align: center;"] {
+    margin: .75%;
+    width: auto !important ;
+}
+
+.projet_prdes_up_block + div[style="text-align: center;"] dl.codebox {
+    padding: 0;
+    border: none;
+    margin: 0;
+    margin-top: -5px;
 }
