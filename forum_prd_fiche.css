@@ -328,7 +328,7 @@ a.discord_goto_proj img:last-of-type {
 }
 
 .prj_prd_warning {
-    margin: 1.33rem 0;
+    margin: 1.33rem 0 2px 0;
 }
 
 .forum_prdes_h1 strong {
@@ -339,4 +339,24 @@ a.discord_goto_proj img:last-of-type {
     font-size: 27px;
     height: auto;
     line-height: 36px;
+}
+
+.forum_prdes_up_ctxt {
+    margin: 1rem;
+    padding: 1.25rem 1.5rem;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-left: 2px solid #6a7cc9;
+    font-size: 15px;
+    line-height: 21px;
+    color: #d1d1d1;
+    background-color: #ffffff0d;
+}
+
+img.smallyish {
+    width: 13px;
+    height: auto;
+    vertical-align: middle;
+    position: relative;
+    top: -2Px;
 }
