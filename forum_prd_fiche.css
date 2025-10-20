@@ -270,16 +270,18 @@
     background-image: linear-gradient(180deg, #060709 15%, #060709FA 29%, #060709CF 90%, #060709EF 100%), url(https://i.imgur.com/iUO6Qua.png);
     margin-left: -24px;
     width: calc(100% + 48px);
-    height: 250px;
+    min-height: 125px;
     box-sizing: border-box;
     padding: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 6px;
-    font-size: 30px;
+    font-size: 14px;
     background-size: 100% auto;
     background-position: 100% 100%;
+    flex-direction: column;
+    height: auto;
 }
 
 .forum_prdesup_teas_end ~ br {
@@ -359,4 +361,34 @@ img.smallyish {
     vertical-align: middle;
     position: relative;
     top: -2Px;
+}
+
+a.forum_goto_proj {
+    background-color: #2b2f59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.33% 0;
+    color: white !important;
+    font-weight: 500;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: .33pt;
+    background-image: linear-gradient(0deg, #04040433, transparent, #04040417);
+}
+
+.forum_prdesup_teas_end dl.codebox.hidecode {
+    width: 100%;
+}
+
+a.forum_goto_proj img {
+    height: 26px;
+    margin-right: 4px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.forum_prdesup_teas_end > dl ~ br {
+    display: none;
 }
