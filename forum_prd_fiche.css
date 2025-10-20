@@ -4,6 +4,45 @@
   inherits: false;
 }
 
+.prj_prd_warning div img {
+    width: 64px;
+    height: 64px;
+}
+
+.prj_prd_warning div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.prj_prd_warning strong {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    gap: 4px;
+}
+
+.prj_prd_warning strong b {
+    color: #d74e4e;
+    font-weight: 600;
+}
+
+.prj_prd_warning span {
+    display: block;
+    border-left: 4px solid #f8254e;
+    background-color: #f8254e4d;
+    color: #d8d8d8;
+    text-shadow: 1px 1px 0px #30303050;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
 .forum_prdes_up_wrapper {
   height: auto;
   position: relative;
@@ -115,6 +154,7 @@
     justify-content: center;
     flex-direction: column;
     align-self: center;
+    user-select: none;
 }
 
 .forum_prdes_up_logo span {
@@ -280,4 +320,23 @@ a.discord_goto_proj img:last-of-type {
     border: none;
     margin: 0;
     margin-top: -5px;
+}
+
+
+.prj_prd_warning .resizebox {
+    display: none;
+}
+
+.prj_prd_warning {
+    margin: 1.33rem 0;
+}
+
+.forum_prdes_h1 strong {
+    background-image: linear-gradient(180deg, #949ecf, #5a65a5);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    font-size: 27px;
+    height: auto;
+    line-height: 36px;
 }
