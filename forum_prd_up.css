@@ -72,6 +72,8 @@
   display: inline-block;
   box-sizing: border-box;
   border-radius: 4px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .forum_prd_up_wrapper::before {
@@ -88,7 +90,6 @@
 
 .forum_prd_up_main {
   position: relative;
-  margin: .1%;
   display: block;
   align-self: center;
   background-color: #060709;
