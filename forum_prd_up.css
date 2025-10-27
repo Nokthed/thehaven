@@ -320,8 +320,8 @@ a.discord_goto_proj img:last-of-type {
     background-image: linear-gradient(180deg, #949ecf, #5a65a5);
     background-clip: text;
     color: transparent;
-    font-weight: 700;
-    font-size: 27px;
+    font-weight: 300;
+    font-size: 46px;
     height: auto;
     line-height: 36px;
 }
