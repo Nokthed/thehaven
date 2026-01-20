@@ -34,7 +34,7 @@
 .prj_prd_warning span {
     display: block;
     border-left: 4px solid #f8254e;
-    background-color: #8b4754;
+    background-color: #8b4754 !important;
     color: #d8d8d8;
     text-shadow: 1px 1px 0px #30303050;
     font-weight: 400;
