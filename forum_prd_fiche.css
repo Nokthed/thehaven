@@ -34,7 +34,7 @@
 .prj_prd_warning span {
     display: block;
     border-left: 4px solid #f8254e;
-    background-color: #f8254e4d;
+    background-color: #8b4754;
     color: #d8d8d8;
     text-shadow: 1px 1px 0px #30303050;
     font-weight: 400;
@@ -56,6 +56,7 @@
     position: relative;
     text-transform: uppercase;
     opacity: .9;
+    color: #afafaf;
 }
 
 .forum_prdes_up_ava strong {
@@ -253,7 +254,7 @@
 }
 
 .forum_prdes_up_content i {
-    color: #254EF8;
+    color: #6885ff;
 }
 
 .forum_prdes_up_content blockquote {
