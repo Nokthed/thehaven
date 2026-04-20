@@ -162,3 +162,13 @@ a.thrch_projurl::before {
     display: block;
     width: fit-content;
 }
+
+a.thrch_gburl {
+    background-color: #254ef8AF;
+    color: white !important;
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
