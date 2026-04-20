@@ -88,3 +88,37 @@ h1.thrch_heading {
     margin-top: 0;
     padding-top: 0;
 }
+
+h2.thrch_heading {
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-size: 19px;
+}
+
+h2.thrch_heading strong {
+    font-weight: 800;
+    color: #8aa0ff;
+    letter-spacing: .25pt;
+}
+
+h2.thrch_heading::before {
+    content: "!";
+    background-color: #254EF8;
+    height: 16px;
+    width: 16px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    top: -2px;
+    border-radius: 2px;
+    margin-right: 3px;
+}
