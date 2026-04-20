@@ -138,6 +138,12 @@ a.thrch_projurl {
     justify-content: center;
     width: fit-content;
     color: white !important;
+    transition: all .33s ease;
+}
+
+a.thrch_projurl:hover {
+    transform: scale(1.205);
+    box-shadow: 0 0 0 6px #254ef855;
 }
 
 a.thrch_projurl::before {
