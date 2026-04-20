@@ -13,6 +13,7 @@
     flex-direction: column;
     background-color: #1a1a1a;
     color: #f1f1f1;
+    overflow-x: hidden;
 }
 
 .thrch_header {
@@ -70,4 +71,5 @@ span.thrch_header_subtitle {
 .thrch_general {
     box-sizing: border-box;
     padding: 0 2% 2% 2%;
+    overflow-x: hidden;
 }
