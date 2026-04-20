@@ -122,3 +122,37 @@ h2.thrch_heading::before {
     border-radius: 2px;
     margin-right: 3px;
 }
+
+
+a.thrch_projurl {
+    position: relative;
+    background-color: #254ef8;
+    padding: 2%;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 11pt;
+    text-align: center;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: white !important;
+}
+
+a.thrch_projurl::before {
+    content: "SUJET PRD";
+    font-size: 9pt;
+    vertical-align: middle;
+    background-color: white;
+    color: #254ef8;
+    display: inline-block;
+    padding: 0 4px;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    display: block;
+    width: fit-content;
+}
