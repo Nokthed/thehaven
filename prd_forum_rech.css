@@ -74,4 +74,6 @@ span.thrch_header_subtitle {
     box-sizing: border-box;
     padding: 0 2% 2% 2%;
     overflow-x: hidden;
+    z-index: 2;
+    position: relative;
 }
